@@ -1,0 +1,31 @@
+-student enters their name and experiment ID
+-present the first task to student: program simple motion
+-present the second task to the student: more realistic motion
+
+
+-system requirements:
+	-ability for user move around in the scene ( teleport and straffing etc)
+	-ability to move the robot
+		-using an end-effector target follower
+		-using individual joint angles
+		-close/open the gripper
+ 	-programming infrastructure:
+		-enter and exit programming mode
+		-save and edit programs
+		-set waypoints
+		-set speed/acceleration between
+		-gripper
+		-run/pause/continue/stop program
+	-Study requirements:
+		-user can submit program for actual evaluation
+		-collect taks metrics (time to complete, accuracy)
+		-collect user metrics (most buttons used, procedure used to program etc)
+
+runtime:		
+runtime: license id: 65659025
+activation code: E645C547
+
+main:
+License ID: 65659023
+Activation Code: 445997U2
+

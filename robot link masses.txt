@@ -1,0 +1,32 @@
+mass:kg
+inertial tensor: x,y,z
+inertia tensor rotation: x,y,z
+
+Base:
+	mass - 7.778
+	inertia tensor: 0.03147431, 0.02187563, 0.03147431
+	inertia tensor rotation:
+Shoulder:
+	mass - 12.93
+	inertia tensor: 0.4217538, 0.03636562, 0.4217538
+	inertia tensor rotation:
+Elbow:
+	mass - 3.87
+	inertia tensor: 0.1110697, 0.01088438, 0.1110697
+Wrist1:
+	mass - 1.96
+	inertia tensor: 0.005108248, 0.0055125, 0.005108248
+	inertia tensor rotation:
+Wrist2:
+	mass - 1.96
+	inertia tensor: 0.005108248, 0.0055125, 0.005108248
+	inertia tensor rotation:
+Wrist3
+	mass - 0.202
+	inertia tensor: 0.0005264623, 0.000568125, 0.0005264623
+	inertia tensor rotation:
+
+
+
+after mo
+b4 david

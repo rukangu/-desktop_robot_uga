@@ -1,0 +1,430 @@
+{
+    "name": "ArticulatedRobot_InputActions",
+    "maps": [
+        {
+            "name": "ArticulatedRobot",
+            "id": "61daae8c-611a-40f2-9b37-cbdacedbc02b",
+            "actions": [
+                {
+                    "name": "Base",
+                    "type": "Button",
+                    "id": "2fcea2fa-bbd5-42eb-8586-9475248b1d4b",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Shoulder",
+                    "type": "Button",
+                    "id": "e5f5b30d-463d-4f86-ae19-1b5ba9369ddb",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Elbow",
+                    "type": "Button",
+                    "id": "ebb74cee-824c-46b9-9175-1a0ad1b88def",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Wrist1",
+                    "type": "Button",
+                    "id": "bc50ee71-e14b-4b76-b11a-36d840e9fa99",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Wrist2",
+                    "type": "Button",
+                    "id": "27ba501a-ea09-408b-91a2-40528a5f5afe",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Wrist3",
+                    "type": "Button",
+                    "id": "9e43a85c-2888-43f4-a86d-e4f2aeafe0dd",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Hand",
+                    "type": "Button",
+                    "id": "553a1bc5-cd5c-4fc6-8ecc-de81487643a8",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Fingers",
+                    "type": "Button",
+                    "id": "59579e7d-925e-4546-a00f-400fb4844b8c",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "a9576b6f-b207-4053-9993-6c1fa55523e8",
+                    "path": "<Gamepad>/leftStick/left",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Base",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "e401381a-f821-48a7-bdbc-8cbbf414d133",
+                    "path": "<Gamepad>/leftStick/right",
+                    "interactions": "",
+                    "processors": "Invert",
+                    "groups": "",
+                    "action": "Base",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "94f479b9-2b61-4918-b1e4-ce8bee9a5e28",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Base",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "35cbed5b-1d55-4eeb-9075-51eb4e4ebd95",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "Invert",
+                    "groups": "",
+                    "action": "Base",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "5b72153f-cad5-48b1-ab0e-1447ccd56f42",
+                    "path": "<Gamepad>/leftStick/down",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Shoulder",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "f77cef0b-3e5b-4589-a8a0-393f1dfacc91",
+                    "path": "<Gamepad>/leftStick/up",
+                    "interactions": "",
+                    "processors": "Invert",
+                    "groups": "",
+                    "action": "Shoulder",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "090fab29-c4de-4896-bbdb-bf77f290659f",
+                    "path": "<Keyboard>/s",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Shoulder",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "3cba4130-203f-4415-9a16-0ce2cac2dd5d",
+                    "path": "<Keyboard>/w",
+                    "interactions": "",
+                    "processors": "Invert",
+                    "groups": "",
+                    "action": "Shoulder",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a35133ed-3cdd-4d96-bf9a-eadf752c1743",
+                    "path": "<Gamepad>/rightStick/up",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Elbow",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "cd9215a2-1f40-4bef-86bc-55c93472dba3",
+                    "path": "<Gamepad>/rightStick/down",
+                    "interactions": "",
+                    "processors": "Invert",
+                    "groups": "",
+                    "action": "Elbow",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a06d5803-87c7-45ef-9324-5d2e680cf118",
+                    "path": "<Keyboard>/q",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Elbow",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "42262c0c-7c00-443a-833b-b05021e7ea4d",
+                    "path": "<Keyboard>/e",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Elbow",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "5121b813-f89e-4a8b-86c2-2b091214b3b9",
+                    "path": "<Gamepad>/rightStick/left",
+                    "interactions": "",
+                    "processors": "Invert",
+                    "groups": "",
+                    "action": "Wrist1",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "0381ab64-d250-4e09-9434-e7bb94b337be",
+                    "path": "<Gamepad>/rightStick/right",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Wrist1",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "73b85d7d-003d-4ca4-a378-67577061fcd3",
+                    "path": "<Keyboard>/o",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Wrist1",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "83cc7a8f-cdf0-414c-82b5-99c1d552970d",
+                    "path": "<Keyboard>/p",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Wrist1",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "040d0012-50a6-434f-bf01-cfa465651c75",
+                    "path": "<Keyboard>/k",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Wrist2",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "e3e97981-7530-4fef-829f-7f034ac0cc00",
+                    "path": "<Keyboard>/l",
+                    "interactions": "",
+                    "processors": "Invert",
+                    "groups": "",
+                    "action": "Wrist2",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "13cbe095-5d3c-4cdb-86d4-19e87deb783f",
+                    "path": "<Gamepad>/dpad/up",
+                    "interactions": "",
+                    "processors": "Invert",
+                    "groups": "",
+                    "action": "Wrist2",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "7d0876c9-e33f-4f37-8de3-88879d5469ec",
+                    "path": "<Gamepad>/dpad/down",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Wrist2",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "250b79da-64af-4051-9387-24a221455209",
+                    "path": "<Keyboard>/n",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Wrist3",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "6d2829cb-29ef-4fd5-85d3-10b800bed508",
+                    "path": "<Keyboard>/m",
+                    "interactions": "",
+                    "processors": "Invert",
+                    "groups": "",
+                    "action": "Wrist3",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "8974d77b-32a6-4b76-b7ca-cdd2ee116d90",
+                    "path": "<Gamepad>/dpad/left",
+                    "interactions": "",
+                    "processors": "Invert",
+                    "groups": "",
+                    "action": "Wrist3",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "56bff376-49f6-482f-9ec7-ca89f5ad7615",
+                    "path": "<Gamepad>/dpad/right",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Wrist3",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "affae60d-5492-4534-a85a-0457dcff1d9b",
+                    "path": "<Keyboard>/v",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Hand",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "928a2098-9d6e-4e65-933b-514be7f1bdcd",
+                    "path": "<Keyboard>/b",
+                    "interactions": "",
+                    "processors": "Invert",
+                    "groups": "",
+                    "action": "Hand",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "bf8dbc87-a5a9-4052-9d21-8ef7ddb4a638",
+                    "path": "<Gamepad>/rightShoulder",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Hand",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a1a1b820-ae4c-4bee-a36a-3d704605c919",
+                    "path": "<Gamepad>/leftShoulder",
+                    "interactions": "",
+                    "processors": "Invert",
+                    "groups": "",
+                    "action": "Hand",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "0ec9919a-913e-4b26-a343-3ec68451d76f",
+                    "path": "<Keyboard>/z",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Fingers",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "0e214ebe-b6bd-4241-97d2-f99cbc0ff3c7",
+                    "path": "<Keyboard>/x",
+                    "interactions": "",
+                    "processors": "Invert",
+                    "groups": "",
+                    "action": "Fingers",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "371338dc-15e1-4ef8-8d19-a169704323e1",
+                    "path": "<Gamepad>/rightTrigger",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Fingers",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c9544bf4-286b-4407-bf0f-f9fe22df5138",
+                    "path": "<Gamepad>/leftTrigger",
+                    "interactions": "",
+                    "processors": "Invert",
+                    "groups": "",
+                    "action": "Fingers",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
